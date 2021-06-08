@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagens/favicon.png">
+    <title>Fale Conosco</title>
+</head>
+
+<body>
+    <header>
+        <h2 id="marcaPag">CAP</h2>
+        <nav class="navegacao">
+            <ul class="nav-lista">
+                <li class="list-item">
+                    <a class="lista-link" href="index.html">Inicio</a>
+                </li>
+                <li class="list-item">
+                    <a class="lista-link" href="conteudo.html">Nossos Serviços</a>
+                </li>
+                <li class="list-item">
+                    <a class="lista-link" href="contato.html">Fale Conosco</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="xx" method="post">
+
+        <fieldset>
+            <br>
+            <legend> FALE CONOSCO</legend>
+
+
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+            <br> <br>
+
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" required placeholder="Digite seu E-mail">
+            <br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" required placeholder="Digite seu telefone">
+            <br><br>
+
+
+            <label for="solicitacao">Tipo de Solicitação:</label>
+            <select name="solicitacao" id="solicitacao">
+                <option value="orcamento">Manutenção</option>
+                <option value="orcamento">Desenvolvimento</option>
+                <option value="orcamento">Instalação</option>
+                <option value="feedback">Sugestão </option>
+            </select>
+
+            <br> <br>
+
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+
+            <br><br>
+            <input type="submit" name="btnEnvio" value="Enviar">
+            &nbsp;&nbsp;
+            <input type="reset" name="btnReset" value="Limpar campos">
+
+            <br><br>
+        </fieldset>
+
+
+    </form>
+
+
+    <footer class="rodape">
+        <section class="rodape-secao">
+            <p>Caique Aparecido Dos Santos Siqueira</p>
+            <p> RGM: 25850326</p>
+            <p>Análise e Desenvolvimento de Sistemas 1K</p>
+        </section>
+        <br>
+        <p class="copyright"> Copyright &copy; 2021. </p>
+    </footer>
+</body>
+
+</html>
